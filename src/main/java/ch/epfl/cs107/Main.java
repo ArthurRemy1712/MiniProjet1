@@ -50,6 +50,9 @@ public final class Main {
      */
     public static void main(String[] args) {
         // ========== Test Bit ==========
+        int randInt = 2345;
+        int randPos = 6;
+        assert Bit.getXthBit(randInt,randPos) == false;
         //assert testXthBit();
         //assert testGetLSB();
         //assert testEmbedInXthBit();
